@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Bayup"
+    "name": "BuyUP"
   },
   "nav": {
     "menu": "Menu",
@@ -48,7 +48,7 @@
       "subtitle": "Vyber si hru a najdi tu správnou službu během pár vteřin"
     },
     "howItWorks": {
-      "title": "Jak Bayup funguje",
+      "title": "Jak BuyUP funguje",
       "step1Title": "Vyber si hru",
       "step1Desc": "Vyber si svou hru a službu.",
       "step2Title": "Zadej objednávku",
@@ -74,7 +74,7 @@
     "privacy": "Soukromí",
     "payment": "Platba",
     "securePayments": "Bezpečné platby",
-    "copyright": "© {year} Bayup. Všechna práva vyhrazena."
+    "copyright": "© {year} BuyUP. Všechna práva vyhrazena."
   },
   "language": {
     "label": "Jazyk"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Přihlas se do Bayup",
+      "title": "Přihlas se do BuyUP",
       "subtitle": "Vítej zpět. Zadej své údaje pro pokračování.",
       "email": "E-mail",
       "password": "Heslo",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Vytvoř si účet",
-      "subtitle": "Připoj se k Bayup a objednávej nebo prodávej boostovací služby.",
+      "subtitle": "Připoj se k BuyUP a objednávej nebo prodávej boostovací služby.",
       "name": "Jméno",
       "email": "E-mail",
       "password": "Heslo",
@@ -170,7 +170,7 @@
     "pay": "Zaplatit {amount}",
     "processing": "Zpracování platby...",
     "mock": {
-      "title": "Platba Bayup",
+      "title": "Platba BuyUP",
       "subtitle": "Vývojový simulátor plateb — nejsou zapojeny žádné skutečné peníze.",
       "simulateSuccess": "Simulovat úspěšnou platbu",
       "simulateFailure": "Simulovat neúspěšnou platbu"

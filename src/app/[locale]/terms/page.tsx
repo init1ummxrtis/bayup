@@ -7,7 +7,7 @@ export default async function TermsPage() {
       <h1 className="mb-6 text-3xl font-extrabold tracking-tight text-text">{t("terms")}</h1>
       <div className="flex flex-col gap-4 text-sm leading-relaxed text-text-muted">
         <p>
-          By placing an order on Bayup you agree that the service is delivered by an independent seller,
+          By placing an order on BuyUP you agree that the service is delivered by an independent seller,
           that account details you provide are used solely to complete that service, and that refunds follow
           the policy shown on each order.
         </p>

@@ -7,7 +7,7 @@ export default async function AboutPage() {
       <h1 className="mb-6 text-3xl font-extrabold tracking-tight text-text">{t("about")}</h1>
       <div className="flex flex-col gap-4 text-sm leading-relaxed text-text-muted">
         <p>
-          Bayup is a marketplace connecting gamers with verified boosters across Valorant, Apex Legends,
+          BuyUP is a marketplace connecting gamers with verified boosters across Valorant, Apex Legends,
           Dota 2, Genshin Impact and Zenless Zone Zero.
         </p>
         <p>

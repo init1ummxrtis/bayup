@@ -16,7 +16,7 @@ export async function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-bg/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="shrink-0 text-xl font-extrabold tracking-tight text-text">
-          Bay<span className="text-primary">up</span>
+          Buy<span className="text-primary">UP</span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

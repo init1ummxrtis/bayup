@@ -26,11 +26,11 @@ export async function generateMetadata(props: {
   const t = await getTranslations({ locale, namespace: "home.hero" });
 
   return {
-    title: { default: `Bayup — ${t("title")} ${t("titleAccent")}`, template: "%s | Bayup" },
+    title: { default: `BuyUP — ${t("title")} ${t("titleAccent")}`, template: "%s | BuyUP" },
     description: t("subtitle"),
     metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"),
     openGraph: {
-      siteName: "Bayup",
+      siteName: "BuyUP",
       type: "website",
     },
   };

@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Bayup"
+    "name": "BuyUP"
   },
   "nav": {
     "menu": "Menu",
@@ -48,7 +48,7 @@
       "subtitle": "Wybierz swoją grę i znajdź odpowiedni boost w kilka sekund"
     },
     "howItWorks": {
-      "title": "Jak działa Bayup",
+      "title": "Jak działa BuyUP",
       "step1Title": "Wybierz grę",
       "step1Desc": "Wybierz swoją grę i usługę.",
       "step2Title": "Złóż zamówienie",
@@ -74,7 +74,7 @@
     "privacy": "Prywatność",
     "payment": "Płatność",
     "securePayments": "Bezpieczne płatności",
-    "copyright": "© {year} Bayup. Wszelkie prawa zastrzeżone."
+    "copyright": "© {year} BuyUP. Wszelkie prawa zastrzeżone."
   },
   "language": {
     "label": "Język"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Zaloguj się do Bayup",
+      "title": "Zaloguj się do BuyUP",
       "subtitle": "Witaj ponownie. Podaj swoje dane, aby kontynuować.",
       "email": "E-mail",
       "password": "Hasło",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Utwórz swoje konto",
-      "subtitle": "Dołącz do Bayup, aby zamawiać i sprzedawać usługi boostingu.",
+      "subtitle": "Dołącz do BuyUP, aby zamawiać i sprzedawać usługi boostingu.",
       "name": "Imię",
       "email": "E-mail",
       "password": "Hasło",
@@ -170,7 +170,7 @@
     "pay": "Zapłać {amount}",
     "processing": "Przetwarzanie płatności...",
     "mock": {
-      "title": "Płatność Bayup",
+      "title": "Płatność BuyUP",
       "subtitle": "Symulator płatności deweloperskich — bez udziału prawdziwych pieniędzy.",
       "simulateSuccess": "Symuluj udaną płatność",
       "simulateFailure": "Symuluj nieudaną płatność"

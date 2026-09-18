@@ -9,7 +9,7 @@ export default async function PrivacyPage() {
         <p>
           We store your account, order and payment records only for as long as needed to deliver and support
           your orders. We never sell your data, and payment details are handled by our payment provider, not
-          stored on Bayup&apos;s servers.
+          stored on BuyUP&apos;s servers.
         </p>
         <p>This is placeholder privacy copy for the demo build — replace with a reviewed policy before launch.</p>
       </div>

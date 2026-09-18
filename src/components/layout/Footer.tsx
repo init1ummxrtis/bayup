@@ -15,7 +15,7 @@ export async function Footer() {
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
           <div className="col-span-2 sm:col-span-1">
             <span className="text-xl font-extrabold tracking-tight text-text">
-              Bay<span className="text-primary">up</span>
+              Buy<span className="text-primary">UP</span>
             </span>
             <p className="mt-3 max-w-xs text-sm text-text-muted">{t("tagline")}</p>
           </div>

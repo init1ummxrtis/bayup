@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Bayup"
+    "name": "BuyUP"
   },
   "nav": {
     "menu": "Menü",
@@ -48,7 +48,7 @@
       "subtitle": "Válaszd ki a játékodat, és találd meg a megfelelő boostot másodpercek alatt"
     },
     "howItWorks": {
-      "title": "Hogyan működik a Bayup",
+      "title": "Hogyan működik a BuyUP",
       "step1Title": "Válassz egy játékot",
       "step1Desc": "Válaszd ki a játékodat és a szolgáltatást.",
       "step2Title": "Adj le egy rendelést",
@@ -74,7 +74,7 @@
     "privacy": "Adatvédelem",
     "payment": "Fizetés",
     "securePayments": "Biztonságos fizetés",
-    "copyright": "© {year} Bayup. Minden jog fenntartva."
+    "copyright": "© {year} BuyUP. Minden jog fenntartva."
   },
   "language": {
     "label": "Nyelv"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Jelentkezz be a Bayupba",
+      "title": "Jelentkezz be a BuyUPba",
       "subtitle": "Üdvözlünk újra! Add meg az adataidat a folytatáshoz.",
       "email": "E-mail",
       "password": "Jelszó",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Hozd létre a fiókodat",
-      "subtitle": "Csatlakozz a Bayuphoz, hogy rendelhess és eladhass boosting szolgáltatásokat.",
+      "subtitle": "Csatlakozz a BuyUPhoz, hogy rendelhess és eladhass boosting szolgáltatásokat.",
       "name": "Név",
       "email": "E-mail",
       "password": "Jelszó",
@@ -170,7 +170,7 @@
     "pay": "Fizetés – {amount}",
     "processing": "Fizetés feldolgozása...",
     "mock": {
-      "title": "Bayup fizetés",
+      "title": "BuyUP fizetés",
       "subtitle": "Fejlesztői fizetési szimulátor — nincs valódi pénzmozgás.",
       "simulateSuccess": "Sikeres fizetés szimulálása",
       "simulateFailure": "Sikertelen fizetés szimulálása"

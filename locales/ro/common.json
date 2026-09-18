@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Bayup"
+    "name": "BuyUP"
   },
   "nav": {
     "menu": "Meniu",
@@ -48,7 +48,7 @@
       "subtitle": "Alege-ți jocul și găsește boost-ul potrivit în câteva secunde"
     },
     "howItWorks": {
-      "title": "Cum funcționează Bayup",
+      "title": "Cum funcționează BuyUP",
       "step1Title": "Alege un joc",
       "step1Desc": "Selectează-ți jocul și serviciul.",
       "step2Title": "Plasează o comandă",
@@ -74,7 +74,7 @@
     "privacy": "Confidențialitate",
     "payment": "Plată",
     "securePayments": "Plăți securizate",
-    "copyright": "© {year} Bayup. Toate drepturile rezervate."
+    "copyright": "© {year} BuyUP. Toate drepturile rezervate."
   },
   "language": {
     "label": "Limbă"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Conectează-te la Bayup",
+      "title": "Conectează-te la BuyUP",
       "subtitle": "Bine ai revenit. Introdu datele tale pentru a continua.",
       "email": "E-mail",
       "password": "Parolă",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Creează-ți contul",
-      "subtitle": "Alătură-te Bayup pentru a comanda și vinde servicii de boosting.",
+      "subtitle": "Alătură-te BuyUP pentru a comanda și vinde servicii de boosting.",
       "name": "Nume",
       "email": "E-mail",
       "password": "Parolă",
@@ -170,7 +170,7 @@
     "pay": "Plătește {amount}",
     "processing": "Se procesează plata...",
     "mock": {
-      "title": "Plată Bayup",
+      "title": "Plată BuyUP",
       "subtitle": "Simulator de plată pentru dezvoltare — nu sunt implicați bani reali.",
       "simulateSuccess": "Simulează plată reușită",
       "simulateFailure": "Simulează plată eșuată"

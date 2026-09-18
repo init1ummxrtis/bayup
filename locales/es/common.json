@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Bayup"
+    "name": "BuyUP"
   },
   "nav": {
     "menu": "Menú",
@@ -48,7 +48,7 @@
       "subtitle": "Elige tu juego y encuentra el boost perfecto en segundos"
     },
     "howItWorks": {
-      "title": "Cómo funciona Bayup",
+      "title": "Cómo funciona BuyUP",
       "step1Title": "Elige un juego",
       "step1Desc": "Selecciona tu juego y el servicio.",
       "step2Title": "Haz un pedido",
@@ -74,7 +74,7 @@
     "privacy": "Privacidad",
     "payment": "Pago",
     "securePayments": "Pagos seguros",
-    "copyright": "© {year} Bayup. Todos los derechos reservados."
+    "copyright": "© {year} BuyUP. Todos los derechos reservados."
   },
   "language": {
     "label": "Idioma"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Inicia sesión en Bayup",
+      "title": "Inicia sesión en BuyUP",
       "subtitle": "Bienvenido de nuevo. Ingresa tus datos para continuar.",
       "email": "Correo electrónico",
       "password": "Contraseña",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Crea tu cuenta",
-      "subtitle": "Únete a Bayup para pedir y vender servicios de boosting.",
+      "subtitle": "Únete a BuyUP para pedir y vender servicios de boosting.",
       "name": "Nombre",
       "email": "Correo electrónico",
       "password": "Contraseña",
@@ -170,7 +170,7 @@
     "pay": "Pagar {amount}",
     "processing": "Procesando el pago...",
     "mock": {
-      "title": "Pago Bayup",
+      "title": "Pago BuyUP",
       "subtitle": "Simulador de pago de desarrollo — no interviene dinero real.",
       "simulateSuccess": "Simular pago exitoso",
       "simulateFailure": "Simular pago fallido"

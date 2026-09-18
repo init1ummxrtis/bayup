@@ -142,7 +142,7 @@ async function main() {
   await db.user.upsert({
     where: { email: "admin@bayup.dev" },
     update: {},
-    create: { email: "admin@bayup.dev", name: "Bayup Admin", passwordHash, role: "ADMIN" },
+    create: { email: "admin@bayup.dev", name: "BuyUP Admin", passwordHash, role: "ADMIN" },
   });
 
   const customers = await Promise.all(
@@ -167,7 +167,7 @@ async function main() {
       create: {
         userId: user.id,
         displayName: s.displayName,
-        bio: `${s.displayName} is a verified Bayup booster specializing in fast, safe service delivery.`,
+        bio: `${s.displayName} is a verified BuyUP booster specializing in fast, safe service delivery.`,
         rating: s.rating,
         ordersCompleted: s.ordersCompleted,
         responseTimeMinutes: s.responseTimeMinutes,
@@ -324,7 +324,7 @@ function productTitle(gameName: string, categoryName: string, index: number): st
 }
 
 function productDescription(gameName: string, categoryName: string): string {
-  return `Professional ${categoryName.toLowerCase()} service for ${gameName}, delivered by a verified Bayup booster. Safe, fast and account-friendly — choose your options below and we'll take care of the rest.`;
+  return `Professional ${categoryName.toLowerCase()} service for ${gameName}, delivered by a verified BuyUP booster. Safe, fast and account-friendly — choose your options below and we'll take care of the rest.`;
 }
 
 main()
