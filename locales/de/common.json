@@ -185,6 +185,23 @@
       "title": "Zahlung fehlgeschlagen",
       "subtitle": "Bei deiner Zahlung ist etwas schiefgelaufen.",
       "tryAgain": "Erneut versuchen"
+    },
+    "info": {
+      "title": "Zahlung",
+      "status": "Status",
+      "provider": "Anbieter",
+      "amount": "Betrag",
+      "date": "Datum"
+    },
+    "status": {
+      "PENDING": "Ausstehend",
+      "SUCCEEDED": "Erfolgreich",
+      "FAILED": "Fehlgeschlagen",
+      "REFUNDED": "Erstattet"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Meine Bestellungen",
     "empty": "Du hast noch keine Bestellungen aufgegeben.",
     "browseGames": "Spiele entdecken",
+    "continueToPayment": "Zur Zahlung fortfahren",
     "orderNumber": "Bestellung Nr. {orderNumber}",
     "placedOn": "Aufgegeben am {date}",
     "leaveReview": "Bewertung abgeben",

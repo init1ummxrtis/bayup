@@ -185,6 +185,23 @@
       "title": "Pagamento non riuscito",
       "subtitle": "Qualcosa è andato storto con il tuo pagamento.",
       "tryAgain": "Riprova"
+    },
+    "info": {
+      "title": "Pagamento",
+      "status": "Stato",
+      "provider": "Fornitore",
+      "amount": "Importo",
+      "date": "Data"
+    },
+    "status": {
+      "PENDING": "In attesa",
+      "SUCCEEDED": "Riuscito",
+      "FAILED": "Non riuscito",
+      "REFUNDED": "Rimborsato"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "I miei ordini",
     "empty": "Non hai ancora effettuato ordini.",
     "browseGames": "Esplora i giochi",
+    "continueToPayment": "Continua al pagamento",
     "orderNumber": "Ordine #{orderNumber}",
     "placedOn": "Effettuato il {date}",
     "leaveReview": "Lascia una recensione",

@@ -7,6 +7,15 @@ import { Rating } from "@/components/Rating";
 import { formatPrice } from "@/lib/currency";
 import { formatOrderNumber } from "@/lib/pricing";
 import { OrderReviewSection } from "@/components/reviews/OrderReviewSection";
+import { ButtonLink } from "@/components/ui/Button";
+import { cn } from "@/lib/utils";
+
+const PAYMENT_STATUS_STYLES: Record<string, string> = {
+  PENDING: "bg-border/30 text-text-muted border-border",
+  SUCCEEDED: "bg-accent-soft text-accent border-accent/30",
+  FAILED: "bg-danger-soft text-danger border-danger/30",
+  REFUNDED: "bg-border/30 text-text-muted border-border",
+};
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -14,11 +23,14 @@ interface PageProps {
 
 export default async function OrderDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const [session, t, tCheckout, tReview, locale] = await Promise.all([
+  const [session, t, tCheckout, tReview, tPaymentInfo, tPaymentStatus, tPaymentProvider, locale] = await Promise.all([
     auth(),
     getTranslations("orders"),
     getTranslations("checkout"),
     getTranslations("review"),
+    getTranslations("payment.info"),
+    getTranslations("payment.status"),
+    getTranslations("payment.provider"),
     getLocale(),
   ]);
 
@@ -31,6 +43,7 @@ export default async function OrderDetailPage({ params }: PageProps) {
 
   const item = order.items[0];
   const selectedOptions = (item?.selectedOptions ?? []) as { groupName: string; valueLabel: string }[];
+  const payment = order.payments[0];
 
   return (
     <div>
@@ -76,6 +89,43 @@ export default async function OrderDetailPage({ params }: PageProps) {
           </div>
         )}
       </div>
+
+      {payment && (
+        <div className="mt-6 rounded-2xl border border-border bg-surface p-6">
+          <h2 className="font-semibold text-text">{tPaymentInfo("title")}</h2>
+          <div className="mt-4 grid grid-cols-2 gap-4 text-sm sm:grid-cols-4">
+            <div>
+              <p className="text-text-subtle">{tPaymentInfo("status")}</p>
+              <span
+                className={cn(
+                  "mt-1 inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium",
+                  PAYMENT_STATUS_STYLES[payment.status]
+                )}
+              >
+                {tPaymentStatus(payment.status)}
+              </span>
+            </div>
+            <div>
+              <p className="text-text-subtle">{tPaymentInfo("provider")}</p>
+              <p className="font-medium text-text">{tPaymentProvider(payment.provider)}</p>
+            </div>
+            <div>
+              <p className="text-text-subtle">{tPaymentInfo("amount")}</p>
+              <p className="font-medium text-text">{formatPrice(Number(payment.amount), "EUR", locale)}</p>
+            </div>
+            <div>
+              <p className="text-text-subtle">{tPaymentInfo("date")}</p>
+              <p className="font-medium text-text">{new Date(payment.createdAt).toLocaleString(locale)}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {(order.status === "PENDING" || order.status === "PAYMENT_PENDING") && (
+        <div className="mt-6">
+          <ButtonLink href={`/payment/${order.id}`}>{t("continueToPayment")}</ButtonLink>
+        </div>
+      )}
 
       {order.status === "COMPLETED" && (
         <div className="mt-6">

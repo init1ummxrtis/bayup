@@ -185,6 +185,23 @@
       "title": "Payment failed",
       "subtitle": "Something went wrong with your payment.",
       "tryAgain": "Try again"
+    },
+    "info": {
+      "title": "Payment",
+      "status": "Status",
+      "provider": "Provider",
+      "amount": "Amount",
+      "date": "Date"
+    },
+    "status": {
+      "PENDING": "Pending",
+      "SUCCEEDED": "Succeeded",
+      "FAILED": "Failed",
+      "REFUNDED": "Refunded"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "My orders",
     "empty": "You haven't placed any orders yet.",
     "browseGames": "Browse games",
+    "continueToPayment": "Continue to payment",
     "orderNumber": "Order #{orderNumber}",
     "placedOn": "Placed on {date}",
     "leaveReview": "Leave a review",

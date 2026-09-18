@@ -5,24 +5,20 @@ import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
 import { useToast } from "@/components/ui/Toast";
 import { cn } from "@/lib/utils";
-
-const STATUSES = [
-  "PENDING",
-  "PAYMENT_PENDING",
-  "PAID",
-  "PROCESSING",
-  "COMPLETED",
-  "CANCELLED",
-  "REFUNDED",
-] as const;
-
-type OrderStatus = (typeof STATUSES)[number];
+import { getAllowedNextStatuses, type OrderStatus } from "@/lib/orderStatusTransitions";
 
 export function OrderStatusSelect({ orderId, status }: { orderId: string; status: OrderStatus }) {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const { show } = useToast();
   const t = useTranslations("orders.status");
+  // The current status is always selectable (no-op) plus whatever the
+  // centralized transition policy allows moving to next — the API is still
+  // the source of truth, this just keeps the UI from offering dead ends.
+  // REFUNDED is excluded even when it would otherwise be the current status:
+  // refunds aren't implemented yet, so the admin UI must never present it as
+  // an action, not even as an inert "current value" in the dropdown.
+  const selectableStatuses = [status, ...getAllowedNextStatuses(status)].filter((s) => s !== "REFUNDED");
 
   async function handleChange(event: ChangeEvent<HTMLSelectElement>) {
     const nextStatus = event.target.value;
@@ -46,6 +42,17 @@ export function OrderStatusSelect({ orderId, status }: { orderId: string; status
     }
   }
 
+  // REFUNDED itself has no allowed transitions and is excluded above, so a
+  // REFUNDED order has nothing left to select — show it as a plain read-only
+  // value instead of rendering an empty, non-functional dropdown.
+  if (selectableStatuses.length === 0) {
+    return (
+      <span className="inline-flex h-9 items-center rounded-lg border border-border bg-surface px-2 text-sm text-text-muted">
+        {t(status)}
+      </span>
+    );
+  }
+
   return (
     <select
       value={status}
@@ -56,7 +63,7 @@ export function OrderStatusSelect({ orderId, status }: { orderId: string; status
         "focus:outline-none focus:ring-2 focus:ring-primary/40"
       )}
     >
-      {STATUSES.map((s) => (
+      {selectableStatuses.map((s) => (
         <option key={s} value={s}>
           {t(s)}
         </option>

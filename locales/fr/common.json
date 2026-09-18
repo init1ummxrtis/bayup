@@ -185,6 +185,23 @@
       "title": "Échec du paiement",
       "subtitle": "Un problème est survenu avec ton paiement.",
       "tryAgain": "Réessayer"
+    },
+    "info": {
+      "title": "Paiement",
+      "status": "Statut",
+      "provider": "Fournisseur",
+      "amount": "Montant",
+      "date": "Date"
+    },
+    "status": {
+      "PENDING": "En attente",
+      "SUCCEEDED": "Réussi",
+      "FAILED": "Échoué",
+      "REFUNDED": "Remboursé"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Mes commandes",
     "empty": "Tu n'as encore passé aucune commande.",
     "browseGames": "Parcourir les jeux",
+    "continueToPayment": "Continuer vers le paiement",
     "orderNumber": "Commande n°{orderNumber}",
     "placedOn": "Passée le {date}",
     "leaveReview": "Laisser un avis",

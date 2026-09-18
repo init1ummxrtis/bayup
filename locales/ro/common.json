@@ -185,6 +185,23 @@
       "title": "Plată eșuată",
       "subtitle": "Ceva nu a mers bine cu plata ta.",
       "tryAgain": "Încearcă din nou"
+    },
+    "info": {
+      "title": "Plată",
+      "status": "Stare",
+      "provider": "Furnizor",
+      "amount": "Sumă",
+      "date": "Data"
+    },
+    "status": {
+      "PENDING": "În așteptare",
+      "SUCCEEDED": "Reușită",
+      "FAILED": "Eșuată",
+      "REFUNDED": "Rambursată"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Comenzile mele",
     "empty": "Încă nu ai plasat nicio comandă.",
     "browseGames": "Răsfoiește jocurile",
+    "continueToPayment": "Continuă spre plată",
     "orderNumber": "Comanda #{orderNumber}",
     "placedOn": "Plasată pe {date}",
     "leaveReview": "Lasă o recenzie",

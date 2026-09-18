@@ -185,6 +185,23 @@
       "title": "Pago fallido",
       "subtitle": "Algo salió mal con tu pago.",
       "tryAgain": "Inténtalo de nuevo"
+    },
+    "info": {
+      "title": "Pago",
+      "status": "Estado",
+      "provider": "Proveedor",
+      "amount": "Importe",
+      "date": "Fecha"
+    },
+    "status": {
+      "PENDING": "Pendiente",
+      "SUCCEEDED": "Exitoso",
+      "FAILED": "Fallido",
+      "REFUNDED": "Reembolsado"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Mis pedidos",
     "empty": "Todavía no has hecho ningún pedido.",
     "browseGames": "Explorar juegos",
+    "continueToPayment": "Continuar al pago",
     "orderNumber": "Pedido n.º {orderNumber}",
     "placedOn": "Realizado el {date}",
     "leaveReview": "Dejar una reseña",

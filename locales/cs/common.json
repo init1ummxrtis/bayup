@@ -185,6 +185,23 @@
       "title": "Platba se nezdařila",
       "subtitle": "S tvou platbou se něco pokazilo.",
       "tryAgain": "Zkusit znovu"
+    },
+    "info": {
+      "title": "Platba",
+      "status": "Stav",
+      "provider": "Poskytovatel",
+      "amount": "Částka",
+      "date": "Datum"
+    },
+    "status": {
+      "PENDING": "Čekající",
+      "SUCCEEDED": "Úspěšná",
+      "FAILED": "Neúspěšná",
+      "REFUNDED": "Vráceno"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Moje objednávky",
     "empty": "Zatím jsi nezadal žádnou objednávku.",
     "browseGames": "Procházet hry",
+    "continueToPayment": "Pokračovat k platbě",
     "orderNumber": "Objednávka č. {orderNumber}",
     "placedOn": "Zadáno {date}",
     "leaveReview": "Napsat recenzi",

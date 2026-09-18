@@ -30,9 +30,9 @@ export default async function PaymentPage({ params }: PageProps) {
   if (order.status === "PAID" || order.status === "PROCESSING" || order.status === "COMPLETED") {
     redirect({ href: `/payment/success/${order.id}`, locale });
   }
-  if (order.status === "CANCELLED") {
-    redirect({ href: `/payment/failed/${order.id}`, locale });
-  }
+  // CANCELLED orders (today, always the result of a failed payment) are
+  // retryable: fall through to the same pay UI as a fresh PENDING order
+  // instead of bouncing to the failed page, which would be a dead-end loop.
 
   return (
     <div className="mx-auto max-w-md px-4 py-16 sm:px-6">

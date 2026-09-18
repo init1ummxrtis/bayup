@@ -185,6 +185,23 @@
       "title": "Sikertelen fizetés",
       "subtitle": "Valami hiba történt a fizetés során.",
       "tryAgain": "Próbáld újra"
+    },
+    "info": {
+      "title": "Fizetés",
+      "status": "Állapot",
+      "provider": "Szolgáltató",
+      "amount": "Összeg",
+      "date": "Dátum"
+    },
+    "status": {
+      "PENDING": "Függőben",
+      "SUCCEEDED": "Sikeres",
+      "FAILED": "Sikertelen",
+      "REFUNDED": "Visszatérítve"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Rendeléseim",
     "empty": "Még nem adtál le egyetlen rendelést sem.",
     "browseGames": "Böngéssz a játékok között",
+    "continueToPayment": "Fizetés folytatása",
     "orderNumber": "Rendelés #{orderNumber}",
     "placedOn": "Leadva: {date}",
     "leaveReview": "Értékelés írása",

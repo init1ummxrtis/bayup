@@ -8,8 +8,7 @@ export default async function TermsPage() {
       <div className="flex flex-col gap-4 text-sm leading-relaxed text-text-muted">
         <p>
           By placing an order on BuyUP you agree that the service is delivered by an independent seller,
-          that account details you provide are used solely to complete that service, and that refunds follow
-          the policy shown on each order.
+          and that account details you provide are used solely to complete that service.
         </p>
         <p>This is placeholder legal copy for the demo build — replace with reviewed terms before launch.</p>
       </div>

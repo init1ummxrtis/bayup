@@ -31,23 +31,31 @@ export default async function OrdersPage() {
       ) : (
         <div className="flex flex-col gap-3">
           {orders.map((order) => (
-            <Link
+            <div
               key={order.id}
-              href={`/profile/orders/${order.id}`}
-              className="flex items-center justify-between gap-4 rounded-2xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
+              className="rounded-2xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
             >
-              <div>
-                <p className="font-medium text-text">{order.items[0]?.title}</p>
-                <p className="mt-1 text-xs text-text-subtle">
-                  {t("orderNumber", { orderNumber: formatOrderNumber(order.orderNumber) })} ·{" "}
-                  {t("placedOn", { date: new Date(order.createdAt).toLocaleDateString(locale) })}
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Price amount={Number(order.totalPrice)} />
-                <StatusBadge status={order.status} />
-              </div>
-            </Link>
+              <Link href={`/profile/orders/${order.id}`} className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="font-medium text-text">{order.items[0]?.title}</p>
+                  <p className="mt-1 text-xs text-text-subtle">
+                    {t("orderNumber", { orderNumber: formatOrderNumber(order.orderNumber) })} ·{" "}
+                    {t("placedOn", { date: new Date(order.createdAt).toLocaleDateString(locale) })}
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Price amount={Number(order.totalPrice)} />
+                  <StatusBadge status={order.status} />
+                </div>
+              </Link>
+              {(order.status === "PENDING" || order.status === "PAYMENT_PENDING") && (
+                <div className="mt-3 border-t border-border pt-3">
+                  <ButtonLink href={`/payment/${order.id}`} size="sm">
+                    {t("continueToPayment")}
+                  </ButtonLink>
+                </div>
+              )}
+            </div>
           ))}
         </div>
       )}

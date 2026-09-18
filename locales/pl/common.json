@@ -185,6 +185,23 @@
       "title": "Płatność nieudana",
       "subtitle": "Coś poszło nie tak z Twoją płatnością.",
       "tryAgain": "Spróbuj ponownie"
+    },
+    "info": {
+      "title": "Płatność",
+      "status": "Status",
+      "provider": "Dostawca",
+      "amount": "Kwota",
+      "date": "Data"
+    },
+    "status": {
+      "PENDING": "Oczekująca",
+      "SUCCEEDED": "Zakończona sukcesem",
+      "FAILED": "Nieudana",
+      "REFUNDED": "Zwrócona"
+    },
+    "provider": {
+      "MOCK": "Mock",
+      "TRIBUTE": "Tribute"
     }
   },
   "orders": {
@@ -200,6 +217,7 @@
     "myOrders": "Moje zamówienia",
     "empty": "Nie złożyłeś jeszcze żadnego zamówienia.",
     "browseGames": "Przeglądaj gry",
+    "continueToPayment": "Przejdź do płatności",
     "orderNumber": "Zamówienie #{orderNumber}",
     "placedOn": "Złożone {date}",
     "leaveReview": "Zostaw opinię",
