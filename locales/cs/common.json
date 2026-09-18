@@ -1,0 +1,274 @@
+{
+  "brand": {
+    "name": "Bayup"
+  },
+  "nav": {
+    "menu": "Menu",
+    "games": "Hry",
+    "howItWorks": "Jak to funguje",
+    "sellers": "Prodejci",
+    "support": "Podpora",
+    "login": "Přihlásit se",
+    "signUp": "Registrovat se",
+    "search": "Hledat hry, služby...",
+    "profile": "Profil",
+    "myOrders": "Moje objednávky",
+    "favorites": "Oblíbené",
+    "settings": "Nastavení",
+    "logout": "Odhlásit se",
+    "admin": "Administrace"
+  },
+  "common": {
+    "from": "Od",
+    "loading": "Načítání...",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "continue": "Pokračovat",
+    "back": "Zpět",
+    "close": "Zavřít",
+    "viewAll": "Zobrazit vše",
+    "reviews": "recenzí",
+    "orders": "objednávek",
+    "delivery": "Doručení",
+    "tryAgain": "Zkusit znovu",
+    "backHome": "Zpět na hlavní stránku",
+    "confirm": "Potvrdit",
+    "optional": "volitelné",
+    "required": "povinné"
+  },
+  "home": {
+    "hero": {
+      "title": "Vylepši svou hru.",
+      "titleAccent": "Hraj na maximum.",
+      "subtitle": "Rychlé, bezpečné a důvěryhodné herní služby.",
+      "cta": "Procházet hry"
+    },
+    "games": {
+      "title": "Populární hry",
+      "subtitle": "Vyber si hru a najdi tu správnou službu během pár vteřin"
+    },
+    "howItWorks": {
+      "title": "Jak Bayup funguje",
+      "step1Title": "Vyber si hru",
+      "step1Desc": "Vyber si svou hru a službu.",
+      "step2Title": "Zadej objednávku",
+      "step2Desc": "Nastav si boost a bezpečně zaplať.",
+      "step3Title": "Získej boost",
+      "step3Desc": "Tvůj prodejce dokončí službu."
+    },
+    "gameDescriptions": {
+      "valorant": "Boostování hodnosti a soutěžní služby",
+      "apex-legends": "Boostování hodnosti a postup",
+      "dota-2": "Boostování MMR a hodnosti",
+      "genshin-impact": "Postup účtu a farmení",
+      "zenless-zone-zero": "Postup a farmení"
+    }
+  },
+  "footer": {
+    "tagline": "Důvěryhodný marketplace pro služby herního boostování.",
+    "games": "Hry",
+    "company": "Společnost",
+    "about": "O nás",
+    "support": "Podpora",
+    "terms": "Podmínky",
+    "privacy": "Soukromí",
+    "payment": "Platba",
+    "securePayments": "Bezpečné platby",
+    "copyright": "© {year} Bayup. Všechna práva vyhrazena."
+  },
+  "language": {
+    "label": "Jazyk"
+  },
+  "currency": {
+    "label": "Měna",
+    "comingSoon": "Již brzy"
+  },
+  "auth": {
+    "login": {
+      "title": "Přihlas se do Bayup",
+      "subtitle": "Vítej zpět. Zadej své údaje pro pokračování.",
+      "email": "E-mail",
+      "password": "Heslo",
+      "submit": "Přihlásit se",
+      "noAccount": "Nemáš účet?",
+      "signUp": "Registrovat se",
+      "error": "Nesprávný e-mail nebo heslo"
+    },
+    "register": {
+      "title": "Vytvoř si účet",
+      "subtitle": "Připoj se k Bayup a objednávej nebo prodávej boostovací služby.",
+      "name": "Jméno",
+      "email": "E-mail",
+      "password": "Heslo",
+      "submit": "Vytvořit účet",
+      "haveAccount": "Už máš účet?",
+      "login": "Přihlásit se",
+      "error": "Něco se pokazilo. Zkus to znovu.",
+      "emailTaken": "Tento e-mail je již zaregistrován"
+    }
+  },
+  "catalog": {
+    "categories": "Kategorie",
+    "allCategories": "Vše",
+    "filters": {
+      "title": "Filtry",
+      "price": "Cena",
+      "rating": "Hodnocení",
+      "ratingAny": "Jakékoli hodnocení",
+      "rating4": "4+ hvězdičky",
+      "rating45": "4,5+ hvězdičky",
+      "delivery": "Doručení",
+      "deliveryAny": "Jakákoli rychlost",
+      "deliveryFast": "Rychlé",
+      "deliveryNormal": "Normální",
+      "apply": "Použít filtry",
+      "reset": "Resetovat"
+    },
+    "sort": {
+      "label": "Seřadit podle",
+      "popular": "Nejoblíbenější",
+      "priceAsc": "Cena: od nejnižší",
+      "priceDesc": "Cena: od nejvyšší",
+      "rating": "Hodnocení"
+    },
+    "viewOffer": "Zobrazit nabídku",
+    "empty": "Zatím žádná služba neodpovídá tvým filtrům.",
+    "resultsCount": "{count, plural, =0 {Žádné služby} one {# služba} few {# služby} many {# služby} other {# služeb}}"
+  },
+  "product": {
+    "description": "Popis",
+    "chooseService": "Vyber si službu",
+    "additionalOptions": "Doplňkové možnosti",
+    "price": "Cena",
+    "buyNow": "Koupit nyní",
+    "addFavorite": "Přidat do oblíbených",
+    "removeFavorite": "Odebrat z oblíbených",
+    "seller": "Prodejce",
+    "deliveryTime": "Doba dodání",
+    "ordersCompleted": "dokončených objednávek",
+    "reviewsTitle": "Recenze zákazníků",
+    "noReviews": "Zatím žádné recenze — buď první, kdo ji napíše."
+  },
+  "checkout": {
+    "title": "Pokladna",
+    "orderSummary": "Souhrn objednávky",
+    "game": "Hra",
+    "service": "Služba",
+    "options": "Možnosti",
+    "total": "Celkem",
+    "contactDetails": "Kontaktní údaje",
+    "email": "E-mail",
+    "gamingUsername": "Herní přezdívka",
+    "additionalInformation": "Doplňující informace",
+    "additionalInformationPlaceholder": "Je něco, co by měl tvůj prodejce vědět?",
+    "continueToPayment": "Pokračovat k platbě",
+    "creatingOrder": "Vytváříme tvou objednávku..."
+  },
+  "payment": {
+    "title": "Objednávka č. {orderNumber}",
+    "method": "Způsob platby",
+    "pay": "Zaplatit {amount}",
+    "processing": "Zpracování platby...",
+    "mock": {
+      "title": "Platba Bayup",
+      "subtitle": "Vývojový simulátor plateb — nejsou zapojeny žádné skutečné peníze.",
+      "simulateSuccess": "Simulovat úspěšnou platbu",
+      "simulateFailure": "Simulovat neúspěšnou platbu"
+    },
+    "success": {
+      "title": "Platba proběhla úspěšně",
+      "subtitle": "Tvoje objednávka je zaplacená a prodejce byl informován.",
+      "viewOrder": "Zobrazit objednávku",
+      "backHome": "Zpět na hlavní stránku"
+    },
+    "failed": {
+      "title": "Platba se nezdařila",
+      "subtitle": "S tvou platbou se něco pokazilo.",
+      "tryAgain": "Zkusit znovu"
+    }
+  },
+  "orders": {
+    "status": {
+      "PENDING": "Čeká na vyřízení",
+      "PAYMENT_PENDING": "Čeká na platbu",
+      "PAID": "Zaplaceno",
+      "PROCESSING": "Zpracovává se",
+      "COMPLETED": "Dokončeno",
+      "CANCELLED": "Zrušeno",
+      "REFUNDED": "Vráceno"
+    },
+    "myOrders": "Moje objednávky",
+    "empty": "Zatím jsi nezadal žádnou objednávku.",
+    "browseGames": "Procházet hry",
+    "orderNumber": "Objednávka č. {orderNumber}",
+    "placedOn": "Zadáno {date}",
+    "leaveReview": "Napsat recenzi",
+    "reviewSubmitted": "Díky za tvou recenzi!"
+  },
+  "profile": {
+    "title": "Můj profil",
+    "orders": "Objednávky",
+    "favorites": "Oblíbené",
+    "settings": "Nastavení",
+    "language": "Jazyk",
+    "currency": "Měna",
+    "noFavorites": "Zatím nemáš žádné uložené oblíbené."
+  },
+  "seller": {
+    "memberSince": "Členem od {date}",
+    "responseTime": "Doba odezvy",
+    "ordersCompleted": "Dokončené objednávky",
+    "availableServices": "Dostupné služby"
+  },
+  "review": {
+    "title": "Napsat recenzi",
+    "yourReview": "Tvoje recenze",
+    "rating": "Hodnocení",
+    "comment": "Komentář",
+    "commentPlaceholder": "Jaká byla tvoje zkušenost?",
+    "submit": "Odeslat recenzi"
+  },
+  "search": {
+    "title": "Výsledky hledání pro „{query}“",
+    "placeholder": "Hledat hry, služby...",
+    "empty": "Nenalezeny žádné výsledky."
+  },
+  "toast": {
+    "orderCreated": "Objednávka vytvořena",
+    "paymentSuccessful": "Platba proběhla úspěšně",
+    "paymentFailed": "Platba se nezdařila",
+    "profileUpdated": "Profil aktualizován",
+    "reviewSubmitted": "Recenze odeslána",
+    "favoriteAdded": "Přidáno do oblíbených",
+    "favoriteRemoved": "Odebráno z oblíbených",
+    "linkCopied": "Odkaz zkopírován do schránky"
+  },
+  "errors": {
+    "generic": "Něco se pokazilo. Zkus to znovu.",
+    "notFound": "Stránka nenalezena",
+    "notFoundDesc": "Stránka, kterou hledáš, neexistuje.",
+    "unauthorized": "Pro pokračování se přihlas.",
+    "forbidden": "Nemáš přístup k této stránce."
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Přehled",
+      "orders": "Objednávky",
+      "products": "Produkty",
+      "games": "Hry",
+      "users": "Uživatelé",
+      "sellers": "Prodejci",
+      "reviews": "Recenze",
+      "payments": "Platby",
+      "settings": "Nastavení"
+    },
+    "dashboard": {
+      "totalOrders": "Celkem objednávek",
+      "revenue": "Tržby",
+      "pendingOrders": "Čekající objednávky",
+      "completedOrders": "Dokončené objednávky",
+      "users": "Uživatelé",
+      "sellers": "Prodejci"
+    }
+  }
+}

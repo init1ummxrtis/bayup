@@ -1,0 +1,274 @@
+{
+  "brand": {
+    "name": "Bayup"
+  },
+  "nav": {
+    "menu": "Menu",
+    "games": "Gry",
+    "howItWorks": "Jak to działa",
+    "sellers": "Sprzedawcy",
+    "support": "Wsparcie",
+    "login": "Zaloguj się",
+    "signUp": "Zarejestruj się",
+    "search": "Szukaj gier, usług...",
+    "profile": "Profil",
+    "myOrders": "Moje zamówienia",
+    "favorites": "Ulubione",
+    "settings": "Ustawienia",
+    "logout": "Wyloguj się",
+    "admin": "Panel administratora"
+  },
+  "common": {
+    "from": "Od",
+    "loading": "Ładowanie...",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "continue": "Dalej",
+    "back": "Wstecz",
+    "close": "Zamknij",
+    "viewAll": "Zobacz wszystkie",
+    "reviews": "opinii",
+    "orders": "zamówień",
+    "delivery": "Dostawa",
+    "tryAgain": "Spróbuj ponownie",
+    "backHome": "Powrót do strony głównej",
+    "confirm": "Potwierdź",
+    "optional": "opcjonalnie",
+    "required": "wymagane"
+  },
+  "home": {
+    "hero": {
+      "title": "Ulepsz swoją grę.",
+      "titleAccent": "Graj na najwyższym poziomie.",
+      "subtitle": "Szybkie, bezpieczne i zaufane usługi gamingowe.",
+      "cta": "Przeglądaj gry"
+    },
+    "games": {
+      "title": "Popularne gry",
+      "subtitle": "Wybierz swoją grę i znajdź odpowiedni boost w kilka sekund"
+    },
+    "howItWorks": {
+      "title": "Jak działa Bayup",
+      "step1Title": "Wybierz grę",
+      "step1Desc": "Wybierz swoją grę i usługę.",
+      "step2Title": "Złóż zamówienie",
+      "step2Desc": "Skonfiguruj swój boost i zapłać bezpiecznie.",
+      "step3Title": "Odbierz boost",
+      "step3Desc": "Twój sprzedawca realizuje usługę."
+    },
+    "gameDescriptions": {
+      "valorant": "Boost rangi i usługi rankingowe",
+      "apex-legends": "Boost rangi i progresji",
+      "dota-2": "Boost MMR i rangi",
+      "genshin-impact": "Progresja konta i farmienie",
+      "zenless-zone-zero": "Progresja i farmienie"
+    }
+  },
+  "footer": {
+    "tagline": "Zaufany marketplace dla usług game boostingu.",
+    "games": "Gry",
+    "company": "Firma",
+    "about": "O nas",
+    "support": "Wsparcie",
+    "terms": "Regulamin",
+    "privacy": "Prywatność",
+    "payment": "Płatność",
+    "securePayments": "Bezpieczne płatności",
+    "copyright": "© {year} Bayup. Wszelkie prawa zastrzeżone."
+  },
+  "language": {
+    "label": "Język"
+  },
+  "currency": {
+    "label": "Waluta",
+    "comingSoon": "Wkrótce"
+  },
+  "auth": {
+    "login": {
+      "title": "Zaloguj się do Bayup",
+      "subtitle": "Witaj ponownie. Podaj swoje dane, aby kontynuować.",
+      "email": "E-mail",
+      "password": "Hasło",
+      "submit": "Zaloguj się",
+      "noAccount": "Nie masz konta?",
+      "signUp": "Zarejestruj się",
+      "error": "Nieprawidłowy e-mail lub hasło"
+    },
+    "register": {
+      "title": "Utwórz swoje konto",
+      "subtitle": "Dołącz do Bayup, aby zamawiać i sprzedawać usługi boostingu.",
+      "name": "Imię",
+      "email": "E-mail",
+      "password": "Hasło",
+      "submit": "Utwórz konto",
+      "haveAccount": "Masz już konto?",
+      "login": "Zaloguj się",
+      "error": "Coś poszło nie tak. Spróbuj ponownie.",
+      "emailTaken": "Ten adres e-mail jest już zarejestrowany"
+    }
+  },
+  "catalog": {
+    "categories": "Kategorie",
+    "allCategories": "Wszystkie",
+    "filters": {
+      "title": "Filtry",
+      "price": "Cena",
+      "rating": "Ocena",
+      "ratingAny": "Dowolna ocena",
+      "rating4": "4+ gwiazdki",
+      "rating45": "4,5+ gwiazdki",
+      "delivery": "Dostawa",
+      "deliveryAny": "Dowolna szybkość",
+      "deliveryFast": "Szybka",
+      "deliveryNormal": "Normalna",
+      "apply": "Zastosuj filtry",
+      "reset": "Wyczyść"
+    },
+    "sort": {
+      "label": "Sortuj według",
+      "popular": "Popularne",
+      "priceAsc": "Cena: od najniższej",
+      "priceDesc": "Cena: od najwyższej",
+      "rating": "Ocena"
+    },
+    "viewOffer": "Zobacz ofertę",
+    "empty": "Żadna usługa nie pasuje jeszcze do Twoich filtrów.",
+    "resultsCount": "{count, plural, =0 {Brak usług} one {# usługa} few {# usługi} many {# usług} other {# usługi}}"
+  },
+  "product": {
+    "description": "Opis",
+    "chooseService": "Wybierz swoją usługę",
+    "additionalOptions": "Dodatkowe opcje",
+    "price": "Cena",
+    "buyNow": "Kup teraz",
+    "addFavorite": "Dodaj do ulubionych",
+    "removeFavorite": "Usuń z ulubionych",
+    "seller": "Sprzedawca",
+    "deliveryTime": "Czas realizacji",
+    "ordersCompleted": "zrealizowanych zamówień",
+    "reviewsTitle": "Opinie klientów",
+    "noReviews": "Jeszcze brak opinii — bądź pierwszy!"
+  },
+  "checkout": {
+    "title": "Zamówienie",
+    "orderSummary": "Podsumowanie zamówienia",
+    "game": "Gra",
+    "service": "Usługa",
+    "options": "Opcje",
+    "total": "Razem",
+    "contactDetails": "Dane kontaktowe",
+    "email": "E-mail",
+    "gamingUsername": "Nazwa użytkownika w grze",
+    "additionalInformation": "Dodatkowe informacje",
+    "additionalInformationPlaceholder": "Czy jest coś, co Twój sprzedawca powinien wiedzieć?",
+    "continueToPayment": "Przejdź do płatności",
+    "creatingOrder": "Tworzenie zamówienia..."
+  },
+  "payment": {
+    "title": "Zamówienie #{orderNumber}",
+    "method": "Metoda płatności",
+    "pay": "Zapłać {amount}",
+    "processing": "Przetwarzanie płatności...",
+    "mock": {
+      "title": "Płatność Bayup",
+      "subtitle": "Symulator płatności deweloperskich — bez udziału prawdziwych pieniędzy.",
+      "simulateSuccess": "Symuluj udaną płatność",
+      "simulateFailure": "Symuluj nieudaną płatność"
+    },
+    "success": {
+      "title": "Płatność zakończona sukcesem",
+      "subtitle": "Twoje zamówienie zostało opłacone, a sprzedawca powiadomiony.",
+      "viewOrder": "Zobacz zamówienie",
+      "backHome": "Powrót do strony głównej"
+    },
+    "failed": {
+      "title": "Płatność nieudana",
+      "subtitle": "Coś poszło nie tak z Twoją płatnością.",
+      "tryAgain": "Spróbuj ponownie"
+    }
+  },
+  "orders": {
+    "status": {
+      "PENDING": "Oczekujące",
+      "PAYMENT_PENDING": "Oczekuje na płatność",
+      "PAID": "Opłacone",
+      "PROCESSING": "W trakcie realizacji",
+      "COMPLETED": "Zrealizowane",
+      "CANCELLED": "Anulowane",
+      "REFUNDED": "Zwrócone"
+    },
+    "myOrders": "Moje zamówienia",
+    "empty": "Nie złożyłeś jeszcze żadnego zamówienia.",
+    "browseGames": "Przeglądaj gry",
+    "orderNumber": "Zamówienie #{orderNumber}",
+    "placedOn": "Złożone {date}",
+    "leaveReview": "Zostaw opinię",
+    "reviewSubmitted": "Dzięki za Twoją opinię!"
+  },
+  "profile": {
+    "title": "Mój profil",
+    "orders": "Zamówienia",
+    "favorites": "Ulubione",
+    "settings": "Ustawienia",
+    "language": "Język",
+    "currency": "Waluta",
+    "noFavorites": "Nie zapisałeś jeszcze żadnych ulubionych."
+  },
+  "seller": {
+    "memberSince": "Członek od {date}",
+    "responseTime": "Czas odpowiedzi",
+    "ordersCompleted": "Zrealizowane zamówienia",
+    "availableServices": "Dostępne usługi"
+  },
+  "review": {
+    "title": "Zostaw opinię",
+    "yourReview": "Twoja opinia",
+    "rating": "Ocena",
+    "comment": "Komentarz",
+    "commentPlaceholder": "Jak oceniasz swoje doświadczenie?",
+    "submit": "Wyślij opinię"
+  },
+  "search": {
+    "title": "Wyniki wyszukiwania dla „{query}”",
+    "placeholder": "Szukaj gier, usług...",
+    "empty": "Nie znaleziono wyników."
+  },
+  "toast": {
+    "orderCreated": "Zamówienie utworzone",
+    "paymentSuccessful": "Płatność zakończona sukcesem",
+    "paymentFailed": "Płatność nieudana",
+    "profileUpdated": "Profil zaktualizowany",
+    "reviewSubmitted": "Opinia wysłana",
+    "favoriteAdded": "Dodano do ulubionych",
+    "favoriteRemoved": "Usunięto z ulubionych",
+    "linkCopied": "Link skopiowany do schowka"
+  },
+  "errors": {
+    "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+    "notFound": "Nie znaleziono strony",
+    "notFoundDesc": "Strona, której szukasz, nie istnieje.",
+    "unauthorized": "Zaloguj się, aby kontynuować.",
+    "forbidden": "Nie masz dostępu do tej strony."
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Panel główny",
+      "orders": "Zamówienia",
+      "products": "Produkty",
+      "games": "Gry",
+      "users": "Użytkownicy",
+      "sellers": "Sprzedawcy",
+      "reviews": "Opinie",
+      "payments": "Płatności",
+      "settings": "Ustawienia"
+    },
+    "dashboard": {
+      "totalOrders": "Wszystkie zamówienia",
+      "revenue": "Przychód",
+      "pendingOrders": "Oczekujące zamówienia",
+      "completedOrders": "Zrealizowane zamówienia",
+      "users": "Użytkownicy",
+      "sellers": "Sprzedawcy"
+    }
+  }
+}

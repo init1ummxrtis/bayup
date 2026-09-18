@@ -1,0 +1,274 @@
+{
+  "brand": {
+    "name": "Bayup"
+  },
+  "nav": {
+    "menu": "Menü",
+    "games": "Játékok",
+    "howItWorks": "Hogyan működik",
+    "sellers": "Eladók",
+    "support": "Támogatás",
+    "login": "Bejelentkezés",
+    "signUp": "Regisztráció",
+    "search": "Játékok, szolgáltatások keresése...",
+    "profile": "Profil",
+    "myOrders": "Rendeléseim",
+    "favorites": "Kedvencek",
+    "settings": "Beállítások",
+    "logout": "Kijelentkezés",
+    "admin": "Admin panel"
+  },
+  "common": {
+    "from": "Ettől",
+    "loading": "Betöltés...",
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "continue": "Tovább",
+    "back": "Vissza",
+    "close": "Bezárás",
+    "viewAll": "Összes megtekintése",
+    "reviews": "értékelés",
+    "orders": "rendelés",
+    "delivery": "Szállítás",
+    "tryAgain": "Próbáld újra",
+    "backHome": "Vissza a főoldalra",
+    "confirm": "Megerősítés",
+    "optional": "opcionális",
+    "required": "kötelező"
+  },
+  "home": {
+    "hero": {
+      "title": "Fejleszd a játékod.",
+      "titleAccent": "Játssz a legjobb formádban.",
+      "subtitle": "Gyors, biztonságos és megbízható gaming szolgáltatások.",
+      "cta": "Böngéssz a játékok között"
+    },
+    "games": {
+      "title": "Népszerű játékok",
+      "subtitle": "Válaszd ki a játékodat, és találd meg a megfelelő boostot másodpercek alatt"
+    },
+    "howItWorks": {
+      "title": "Hogyan működik a Bayup",
+      "step1Title": "Válassz egy játékot",
+      "step1Desc": "Válaszd ki a játékodat és a szolgáltatást.",
+      "step2Title": "Adj le egy rendelést",
+      "step2Desc": "Állítsd be a boostodat, és fizess biztonságosan.",
+      "step3Title": "Boostolva",
+      "step3Desc": "Az eladód elvégzi a szolgáltatást."
+    },
+    "gameDescriptions": {
+      "valorant": "Rangboost és versenyszolgáltatások",
+      "apex-legends": "Rangboost és fejlődés",
+      "dota-2": "MMR- és rangboost",
+      "genshin-impact": "Karakterfejlődés és farmolás",
+      "zenless-zone-zero": "Fejlődés és farmolás"
+    }
+  },
+  "footer": {
+    "tagline": "A megbízható piactér a game boosting szolgáltatásokhoz.",
+    "games": "Játékok",
+    "company": "Cég",
+    "about": "Rólunk",
+    "support": "Támogatás",
+    "terms": "Feltételek",
+    "privacy": "Adatvédelem",
+    "payment": "Fizetés",
+    "securePayments": "Biztonságos fizetés",
+    "copyright": "© {year} Bayup. Minden jog fenntartva."
+  },
+  "language": {
+    "label": "Nyelv"
+  },
+  "currency": {
+    "label": "Pénznem",
+    "comingSoon": "Hamarosan"
+  },
+  "auth": {
+    "login": {
+      "title": "Jelentkezz be a Bayupba",
+      "subtitle": "Üdvözlünk újra! Add meg az adataidat a folytatáshoz.",
+      "email": "E-mail",
+      "password": "Jelszó",
+      "submit": "Bejelentkezés",
+      "noAccount": "Még nincs fiókod?",
+      "signUp": "Regisztráció",
+      "error": "Hibás e-mail cím vagy jelszó"
+    },
+    "register": {
+      "title": "Hozd létre a fiókodat",
+      "subtitle": "Csatlakozz a Bayuphoz, hogy rendelhess és eladhass boosting szolgáltatásokat.",
+      "name": "Név",
+      "email": "E-mail",
+      "password": "Jelszó",
+      "submit": "Fiók létrehozása",
+      "haveAccount": "Már van fiókod?",
+      "login": "Bejelentkezés",
+      "error": "Valami hiba történt. Próbáld újra.",
+      "emailTaken": "Ez az e-mail cím már regisztrálva van"
+    }
+  },
+  "catalog": {
+    "categories": "Kategóriák",
+    "allCategories": "Összes",
+    "filters": {
+      "title": "Szűrők",
+      "price": "Ár",
+      "rating": "Értékelés",
+      "ratingAny": "Bármilyen értékelés",
+      "rating4": "4+ csillag",
+      "rating45": "4,5+ csillag",
+      "delivery": "Szállítás",
+      "deliveryAny": "Bármilyen sebesség",
+      "deliveryFast": "Gyors",
+      "deliveryNormal": "Normál",
+      "apply": "Szűrők alkalmazása",
+      "reset": "Alaphelyzet"
+    },
+    "sort": {
+      "label": "Rendezés",
+      "popular": "Népszerű",
+      "priceAsc": "Ár: alacsonytól magasig",
+      "priceDesc": "Ár: magastól alacsonyig",
+      "rating": "Értékelés"
+    },
+    "viewOffer": "Ajánlat megtekintése",
+    "empty": "Egyelőre nincs a szűrőidnek megfelelő szolgáltatás.",
+    "resultsCount": "{count, plural, =0 {Nincs szolgáltatás} one {# szolgáltatás} other {# szolgáltatás}}"
+  },
+  "product": {
+    "description": "Leírás",
+    "chooseService": "Válaszd ki a szolgáltatásod",
+    "additionalOptions": "További opciók",
+    "price": "Ár",
+    "buyNow": "Vásárlás most",
+    "addFavorite": "Hozzáadás a kedvencekhez",
+    "removeFavorite": "Eltávolítás a kedvencek közül",
+    "seller": "Eladó",
+    "deliveryTime": "Szállítási idő",
+    "ordersCompleted": "teljesített rendelés",
+    "reviewsTitle": "Vásárlói értékelések",
+    "noReviews": "Még nincs értékelés — legyél te az első!"
+  },
+  "checkout": {
+    "title": "Pénztár",
+    "orderSummary": "Rendelés összegzése",
+    "game": "Játék",
+    "service": "Szolgáltatás",
+    "options": "Opciók",
+    "total": "Összesen",
+    "contactDetails": "Kapcsolattartási adatok",
+    "email": "E-mail",
+    "gamingUsername": "Játékos felhasználónév",
+    "additionalInformation": "További információ",
+    "additionalInformationPlaceholder": "Van valami, amit az eladódnak tudnia kell?",
+    "continueToPayment": "Tovább a fizetéshez",
+    "creatingOrder": "Rendelés létrehozása..."
+  },
+  "payment": {
+    "title": "Rendelés #{orderNumber}",
+    "method": "Fizetési mód",
+    "pay": "Fizetés – {amount}",
+    "processing": "Fizetés feldolgozása...",
+    "mock": {
+      "title": "Bayup fizetés",
+      "subtitle": "Fejlesztői fizetési szimulátor — nincs valódi pénzmozgás.",
+      "simulateSuccess": "Sikeres fizetés szimulálása",
+      "simulateFailure": "Sikertelen fizetés szimulálása"
+    },
+    "success": {
+      "title": "Sikeres fizetés",
+      "subtitle": "A rendelésed kifizetve, az eladód értesítést kapott.",
+      "viewOrder": "Rendelés megtekintése",
+      "backHome": "Vissza a főoldalra"
+    },
+    "failed": {
+      "title": "Sikertelen fizetés",
+      "subtitle": "Valami hiba történt a fizetés során.",
+      "tryAgain": "Próbáld újra"
+    }
+  },
+  "orders": {
+    "status": {
+      "PENDING": "Függőben",
+      "PAYMENT_PENDING": "Fizetésre vár",
+      "PAID": "Fizetve",
+      "PROCESSING": "Folyamatban",
+      "COMPLETED": "Teljesítve",
+      "CANCELLED": "Törölve",
+      "REFUNDED": "Visszatérítve"
+    },
+    "myOrders": "Rendeléseim",
+    "empty": "Még nem adtál le egyetlen rendelést sem.",
+    "browseGames": "Böngéssz a játékok között",
+    "orderNumber": "Rendelés #{orderNumber}",
+    "placedOn": "Leadva: {date}",
+    "leaveReview": "Értékelés írása",
+    "reviewSubmitted": "Köszönjük az értékelésed!"
+  },
+  "profile": {
+    "title": "Profilom",
+    "orders": "Rendelések",
+    "favorites": "Kedvencek",
+    "settings": "Beállítások",
+    "language": "Nyelv",
+    "currency": "Pénznem",
+    "noFavorites": "Még nincs elmentett kedvenced."
+  },
+  "seller": {
+    "memberSince": "Tag {date} óta",
+    "responseTime": "Válaszidő",
+    "ordersCompleted": "Teljesített rendelések",
+    "availableServices": "Elérhető szolgáltatások"
+  },
+  "review": {
+    "title": "Értékelés írása",
+    "yourReview": "Az értékelésed",
+    "rating": "Értékelés",
+    "comment": "Megjegyzés",
+    "commentPlaceholder": "Milyen volt az élményed?",
+    "submit": "Értékelés beküldése"
+  },
+  "search": {
+    "title": "Keresési találatok erre: \"{query}\"",
+    "placeholder": "Játékok, szolgáltatások keresése...",
+    "empty": "Nincs találat."
+  },
+  "toast": {
+    "orderCreated": "Rendelés létrehozva",
+    "paymentSuccessful": "Sikeres fizetés",
+    "paymentFailed": "Sikertelen fizetés",
+    "profileUpdated": "Profil frissítve",
+    "reviewSubmitted": "Értékelés elküldve",
+    "favoriteAdded": "Hozzáadva a kedvencekhez",
+    "favoriteRemoved": "Eltávolítva a kedvencek közül",
+    "linkCopied": "Link a vágólapra másolva"
+  },
+  "errors": {
+    "generic": "Valami hiba történt. Próbáld újra.",
+    "notFound": "Az oldal nem található",
+    "notFoundDesc": "A keresett oldal nem létezik.",
+    "unauthorized": "A folytatáshoz jelentkezz be.",
+    "forbidden": "Nincs jogosultságod ehhez az oldalhoz."
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Áttekintés",
+      "orders": "Rendelések",
+      "products": "Termékek",
+      "games": "Játékok",
+      "users": "Felhasználók",
+      "sellers": "Eladók",
+      "reviews": "Értékelések",
+      "payments": "Fizetések",
+      "settings": "Beállítások"
+    },
+    "dashboard": {
+      "totalOrders": "Összes rendelés",
+      "revenue": "Bevétel",
+      "pendingOrders": "Függő rendelések",
+      "completedOrders": "Teljesített rendelések",
+      "users": "Felhasználók",
+      "sellers": "Eladók"
+    }
+  }
+}

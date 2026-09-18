@@ -1,0 +1,274 @@
+{
+  "brand": {
+    "name": "Bayup"
+  },
+  "nav": {
+    "menu": "Menu",
+    "games": "Games",
+    "howItWorks": "How it works",
+    "sellers": "Sellers",
+    "support": "Support",
+    "login": "Log in",
+    "signUp": "Sign up",
+    "search": "Search games, services...",
+    "profile": "Profile",
+    "myOrders": "My orders",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "logout": "Log out",
+    "admin": "Admin panel"
+  },
+  "common": {
+    "from": "From",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "close": "Close",
+    "viewAll": "View all",
+    "reviews": "reviews",
+    "orders": "orders",
+    "delivery": "Delivery",
+    "tryAgain": "Try again",
+    "backHome": "Back to home",
+    "confirm": "Confirm",
+    "optional": "optional",
+    "required": "required"
+  },
+  "home": {
+    "hero": {
+      "title": "Boost your game.",
+      "titleAccent": "Play at your best.",
+      "subtitle": "Fast, secure and trusted gaming services.",
+      "cta": "Browse games"
+    },
+    "games": {
+      "title": "Popular games",
+      "subtitle": "Pick your game and find the right boost in seconds"
+    },
+    "howItWorks": {
+      "title": "How Bayup works",
+      "step1Title": "Choose a game",
+      "step1Desc": "Select your game and service.",
+      "step2Title": "Place an order",
+      "step2Desc": "Configure your boost and pay securely.",
+      "step3Title": "Get boosted",
+      "step3Desc": "Your seller completes the service."
+    },
+    "gameDescriptions": {
+      "valorant": "Rank boosting and competitive services",
+      "apex-legends": "Rank boosting and progression",
+      "dota-2": "MMR and rank boosting",
+      "genshin-impact": "Account progression and farming",
+      "zenless-zone-zero": "Progression and farming"
+    }
+  },
+  "footer": {
+    "tagline": "The trusted marketplace for game boosting services.",
+    "games": "Games",
+    "company": "Company",
+    "about": "About",
+    "support": "Support",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "payment": "Payment",
+    "securePayments": "Secure payments",
+    "copyright": "© {year} Bayup. All rights reserved."
+  },
+  "language": {
+    "label": "Language"
+  },
+  "currency": {
+    "label": "Currency",
+    "comingSoon": "Coming soon"
+  },
+  "auth": {
+    "login": {
+      "title": "Log in to Bayup",
+      "subtitle": "Welcome back. Enter your details to continue.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Log in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "error": "Invalid email or password"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Join Bayup to order and sell boosting services.",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "login": "Log in",
+      "error": "Something went wrong. Please try again.",
+      "emailTaken": "This email is already registered"
+    }
+  },
+  "catalog": {
+    "categories": "Categories",
+    "allCategories": "All",
+    "filters": {
+      "title": "Filters",
+      "price": "Price",
+      "rating": "Rating",
+      "ratingAny": "Any rating",
+      "rating4": "4+ stars",
+      "rating45": "4.5+ stars",
+      "delivery": "Delivery",
+      "deliveryAny": "Any speed",
+      "deliveryFast": "Fast",
+      "deliveryNormal": "Normal",
+      "apply": "Apply filters",
+      "reset": "Reset"
+    },
+    "sort": {
+      "label": "Sort by",
+      "popular": "Popular",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "rating": "Rating"
+    },
+    "viewOffer": "View offer",
+    "empty": "No services match your filters yet.",
+    "resultsCount": "{count, plural, =0 {No services} one {# service} other {# services}}"
+  },
+  "product": {
+    "description": "Description",
+    "chooseService": "Choose your service",
+    "additionalOptions": "Additional options",
+    "price": "Price",
+    "buyNow": "Buy now",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "seller": "Seller",
+    "deliveryTime": "Delivery time",
+    "ordersCompleted": "orders completed",
+    "reviewsTitle": "Customer reviews",
+    "noReviews": "No reviews yet — be the first to leave one."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "orderSummary": "Order summary",
+    "game": "Game",
+    "service": "Service",
+    "options": "Options",
+    "total": "Total",
+    "contactDetails": "Contact details",
+    "email": "Email",
+    "gamingUsername": "Gaming username",
+    "additionalInformation": "Additional information",
+    "additionalInformationPlaceholder": "Anything your seller should know?",
+    "continueToPayment": "Continue to payment",
+    "creatingOrder": "Creating your order..."
+  },
+  "payment": {
+    "title": "Order #{orderNumber}",
+    "method": "Payment method",
+    "pay": "Pay {amount}",
+    "processing": "Processing payment...",
+    "mock": {
+      "title": "Bayup Payment",
+      "subtitle": "Development payment simulator — no real money is involved.",
+      "simulateSuccess": "Simulate successful payment",
+      "simulateFailure": "Simulate failed payment"
+    },
+    "success": {
+      "title": "Payment successful",
+      "subtitle": "Your order is paid and your seller has been notified.",
+      "viewOrder": "View order",
+      "backHome": "Back to home"
+    },
+    "failed": {
+      "title": "Payment failed",
+      "subtitle": "Something went wrong with your payment.",
+      "tryAgain": "Try again"
+    }
+  },
+  "orders": {
+    "status": {
+      "PENDING": "Pending",
+      "PAYMENT_PENDING": "Awaiting payment",
+      "PAID": "Paid",
+      "PROCESSING": "In progress",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled",
+      "REFUNDED": "Refunded"
+    },
+    "myOrders": "My orders",
+    "empty": "You haven't placed any orders yet.",
+    "browseGames": "Browse games",
+    "orderNumber": "Order #{orderNumber}",
+    "placedOn": "Placed on {date}",
+    "leaveReview": "Leave a review",
+    "reviewSubmitted": "Thanks for your review!"
+  },
+  "profile": {
+    "title": "My profile",
+    "orders": "Orders",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "language": "Language",
+    "currency": "Currency",
+    "noFavorites": "You haven't saved any favorites yet."
+  },
+  "seller": {
+    "memberSince": "Member since {date}",
+    "responseTime": "Response time",
+    "ordersCompleted": "Orders completed",
+    "availableServices": "Available services"
+  },
+  "review": {
+    "title": "Leave a review",
+    "yourReview": "Your review",
+    "rating": "Rating",
+    "comment": "Comment",
+    "commentPlaceholder": "How was your experience?",
+    "submit": "Submit review"
+  },
+  "search": {
+    "title": "Search results for \"{query}\"",
+    "placeholder": "Search games, services...",
+    "empty": "No results found."
+  },
+  "toast": {
+    "orderCreated": "Order created",
+    "paymentSuccessful": "Payment successful",
+    "paymentFailed": "Payment failed",
+    "profileUpdated": "Profile updated",
+    "reviewSubmitted": "Review submitted",
+    "favoriteAdded": "Added to favorites",
+    "favoriteRemoved": "Removed from favorites",
+    "linkCopied": "Link copied to clipboard"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "notFound": "Page not found",
+    "notFoundDesc": "The page you're looking for doesn't exist.",
+    "unauthorized": "Please log in to continue.",
+    "forbidden": "You don't have access to this page."
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "products": "Products",
+      "games": "Games",
+      "users": "Users",
+      "sellers": "Sellers",
+      "reviews": "Reviews",
+      "payments": "Payments",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "totalOrders": "Total orders",
+      "revenue": "Revenue",
+      "pendingOrders": "Pending orders",
+      "completedOrders": "Completed orders",
+      "users": "Users",
+      "sellers": "Sellers"
+    }
+  }
+}

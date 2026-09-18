@@ -1,0 +1,274 @@
+{
+  "brand": {
+    "name": "Bayup"
+  },
+  "nav": {
+    "menu": "Meniu",
+    "games": "Jocuri",
+    "howItWorks": "Cum funcționează",
+    "sellers": "Vânzători",
+    "support": "Asistență",
+    "login": "Conectare",
+    "signUp": "Înregistrare",
+    "search": "Caută jocuri, servicii...",
+    "profile": "Profil",
+    "myOrders": "Comenzile mele",
+    "favorites": "Favorite",
+    "settings": "Setări",
+    "logout": "Deconectare",
+    "admin": "Panou de administrare"
+  },
+  "common": {
+    "from": "De la",
+    "loading": "Se încarcă...",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "continue": "Continuă",
+    "back": "Înapoi",
+    "close": "Închide",
+    "viewAll": "Vezi toate",
+    "reviews": "recenzii",
+    "orders": "comenzi",
+    "delivery": "Livrare",
+    "tryAgain": "Încearcă din nou",
+    "backHome": "Înapoi la pagina principală",
+    "confirm": "Confirmă",
+    "optional": "opțional",
+    "required": "obligatoriu"
+  },
+  "home": {
+    "hero": {
+      "title": "Îmbunătățește-ți jocul.",
+      "titleAccent": "Joacă la nivelul tău maxim.",
+      "subtitle": "Servicii de gaming rapide, sigure și de încredere.",
+      "cta": "Răsfoiește jocurile"
+    },
+    "games": {
+      "title": "Jocuri populare",
+      "subtitle": "Alege-ți jocul și găsește boost-ul potrivit în câteva secunde"
+    },
+    "howItWorks": {
+      "title": "Cum funcționează Bayup",
+      "step1Title": "Alege un joc",
+      "step1Desc": "Selectează-ți jocul și serviciul.",
+      "step2Title": "Plasează o comandă",
+      "step2Desc": "Configurează-ți boost-ul și plătește în siguranță.",
+      "step3Title": "Primești boost-ul",
+      "step3Desc": "Vânzătorul tău finalizează serviciul."
+    },
+    "gameDescriptions": {
+      "valorant": "Boost de rang și servicii competitive",
+      "apex-legends": "Boost de rang și progresie",
+      "dota-2": "Boost de MMR și rang",
+      "genshin-impact": "Progresia contului și farming",
+      "zenless-zone-zero": "Progresie și farming"
+    }
+  },
+  "footer": {
+    "tagline": "Marketplace-ul de încredere pentru servicii de game boosting.",
+    "games": "Jocuri",
+    "company": "Companie",
+    "about": "Despre noi",
+    "support": "Asistență",
+    "terms": "Termeni",
+    "privacy": "Confidențialitate",
+    "payment": "Plată",
+    "securePayments": "Plăți securizate",
+    "copyright": "© {year} Bayup. Toate drepturile rezervate."
+  },
+  "language": {
+    "label": "Limbă"
+  },
+  "currency": {
+    "label": "Monedă",
+    "comingSoon": "În curând"
+  },
+  "auth": {
+    "login": {
+      "title": "Conectează-te la Bayup",
+      "subtitle": "Bine ai revenit. Introdu datele tale pentru a continua.",
+      "email": "E-mail",
+      "password": "Parolă",
+      "submit": "Conectare",
+      "noAccount": "Nu ai cont?",
+      "signUp": "Înregistrare",
+      "error": "E-mail sau parolă incorectă"
+    },
+    "register": {
+      "title": "Creează-ți contul",
+      "subtitle": "Alătură-te Bayup pentru a comanda și vinde servicii de boosting.",
+      "name": "Nume",
+      "email": "E-mail",
+      "password": "Parolă",
+      "submit": "Creează cont",
+      "haveAccount": "Ai deja un cont?",
+      "login": "Conectare",
+      "error": "Ceva nu a mers bine. Încearcă din nou.",
+      "emailTaken": "Acest e-mail este deja înregistrat"
+    }
+  },
+  "catalog": {
+    "categories": "Categorii",
+    "allCategories": "Toate",
+    "filters": {
+      "title": "Filtre",
+      "price": "Preț",
+      "rating": "Evaluare",
+      "ratingAny": "Orice evaluare",
+      "rating4": "4+ stele",
+      "rating45": "4,5+ stele",
+      "delivery": "Livrare",
+      "deliveryAny": "Orice viteză",
+      "deliveryFast": "Rapidă",
+      "deliveryNormal": "Normală",
+      "apply": "Aplică filtrele",
+      "reset": "Resetează"
+    },
+    "sort": {
+      "label": "Sortează după",
+      "popular": "Populare",
+      "priceAsc": "Preț: crescător",
+      "priceDesc": "Preț: descrescător",
+      "rating": "Evaluare"
+    },
+    "viewOffer": "Vezi oferta",
+    "empty": "Niciun serviciu nu se potrivește încă filtrelor tale.",
+    "resultsCount": "{count, plural, =0 {Niciun serviciu} one {# serviciu} few {# servicii} other {# de servicii}}"
+  },
+  "product": {
+    "description": "Descriere",
+    "chooseService": "Alege-ți serviciul",
+    "additionalOptions": "Opțiuni suplimentare",
+    "price": "Preț",
+    "buyNow": "Cumpără acum",
+    "addFavorite": "Adaugă la favorite",
+    "removeFavorite": "Elimină din favorite",
+    "seller": "Vânzător",
+    "deliveryTime": "Timp de livrare",
+    "ordersCompleted": "comenzi finalizate",
+    "reviewsTitle": "Recenzii ale clienților",
+    "noReviews": "Încă nu există recenzii — fii primul care lasă una."
+  },
+  "checkout": {
+    "title": "Finalizare comandă",
+    "orderSummary": "Sumar comandă",
+    "game": "Joc",
+    "service": "Serviciu",
+    "options": "Opțiuni",
+    "total": "Total",
+    "contactDetails": "Detalii de contact",
+    "email": "E-mail",
+    "gamingUsername": "Nume de utilizator în joc",
+    "additionalInformation": "Informații suplimentare",
+    "additionalInformationPlaceholder": "Este ceva ce vânzătorul tău ar trebui să știe?",
+    "continueToPayment": "Continuă spre plată",
+    "creatingOrder": "Se creează comanda ta..."
+  },
+  "payment": {
+    "title": "Comanda #{orderNumber}",
+    "method": "Metodă de plată",
+    "pay": "Plătește {amount}",
+    "processing": "Se procesează plata...",
+    "mock": {
+      "title": "Plată Bayup",
+      "subtitle": "Simulator de plată pentru dezvoltare — nu sunt implicați bani reali.",
+      "simulateSuccess": "Simulează plată reușită",
+      "simulateFailure": "Simulează plată eșuată"
+    },
+    "success": {
+      "title": "Plată reușită",
+      "subtitle": "Comanda ta este plătită, iar vânzătorul tău a fost notificat.",
+      "viewOrder": "Vezi comanda",
+      "backHome": "Înapoi la pagina principală"
+    },
+    "failed": {
+      "title": "Plată eșuată",
+      "subtitle": "Ceva nu a mers bine cu plata ta.",
+      "tryAgain": "Încearcă din nou"
+    }
+  },
+  "orders": {
+    "status": {
+      "PENDING": "În așteptare",
+      "PAYMENT_PENDING": "Așteaptă plata",
+      "PAID": "Plătită",
+      "PROCESSING": "În procesare",
+      "COMPLETED": "Finalizată",
+      "CANCELLED": "Anulată",
+      "REFUNDED": "Rambursată"
+    },
+    "myOrders": "Comenzile mele",
+    "empty": "Încă nu ai plasat nicio comandă.",
+    "browseGames": "Răsfoiește jocurile",
+    "orderNumber": "Comanda #{orderNumber}",
+    "placedOn": "Plasată pe {date}",
+    "leaveReview": "Lasă o recenzie",
+    "reviewSubmitted": "Mulțumim pentru recenzie!"
+  },
+  "profile": {
+    "title": "Profilul meu",
+    "orders": "Comenzi",
+    "favorites": "Favorite",
+    "settings": "Setări",
+    "language": "Limbă",
+    "currency": "Monedă",
+    "noFavorites": "Încă nu ai salvat niciun favorit."
+  },
+  "seller": {
+    "memberSince": "Membru din {date}",
+    "responseTime": "Timp de răspuns",
+    "ordersCompleted": "Comenzi finalizate",
+    "availableServices": "Servicii disponibile"
+  },
+  "review": {
+    "title": "Lasă o recenzie",
+    "yourReview": "Recenzia ta",
+    "rating": "Evaluare",
+    "comment": "Comentariu",
+    "commentPlaceholder": "Cum a fost experiența ta?",
+    "submit": "Trimite recenzia"
+  },
+  "search": {
+    "title": "Rezultate de căutare pentru „{query}”",
+    "placeholder": "Caută jocuri, servicii...",
+    "empty": "Niciun rezultat găsit."
+  },
+  "toast": {
+    "orderCreated": "Comandă creată",
+    "paymentSuccessful": "Plată reușită",
+    "paymentFailed": "Plată eșuată",
+    "profileUpdated": "Profil actualizat",
+    "reviewSubmitted": "Recenzie trimisă",
+    "favoriteAdded": "Adăugat la favorite",
+    "favoriteRemoved": "Eliminat din favorite",
+    "linkCopied": "Link copiat în clipboard"
+  },
+  "errors": {
+    "generic": "Ceva nu a mers bine. Încearcă din nou.",
+    "notFound": "Pagină negăsită",
+    "notFoundDesc": "Pagina pe care o cauți nu există.",
+    "unauthorized": "Conectează-te pentru a continua.",
+    "forbidden": "Nu ai acces la această pagină."
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Tablou de bord",
+      "orders": "Comenzi",
+      "products": "Produse",
+      "games": "Jocuri",
+      "users": "Utilizatori",
+      "sellers": "Vânzători",
+      "reviews": "Recenzii",
+      "payments": "Plăți",
+      "settings": "Setări"
+    },
+    "dashboard": {
+      "totalOrders": "Total comenzi",
+      "revenue": "Venituri",
+      "pendingOrders": "Comenzi în așteptare",
+      "completedOrders": "Comenzi finalizate",
+      "users": "Utilizatori",
+      "sellers": "Vânzători"
+    }
+  }
+}
