@@ -1,6 +1,6 @@
-# BuyUP
+# WAlosses
 
-BuyUP is a dark, premium marketplace for buying game-boosting services (Valorant, Apex Legends, Dota 2, Genshin Impact, Zenless Zone Zero) — in the spirit of Playerok/GGsel, with its own visual identity.
+WAlosses is a dark, premium marketplace for buying game-boosting services (Valorant, Apex Legends, Dota 2, Genshin Impact, Zenless Zone Zero) — in the spirit of Playerok/GGsel, with its own visual identity.
 
 This is the MVP build: full catalog, checkout, order lifecycle, a pluggable payment architecture with a working mock provider (Tribute-ready but not yet connected), accounts, reviews, seller profiles, an admin panel, and full UI localization across 9 languages.
 

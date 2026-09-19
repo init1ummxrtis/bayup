@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Page not found | BuyUP",
+  title: "Page not found | WAlosses",
   description: "The page you're looking for doesn't exist.",
 };
 
@@ -21,7 +21,7 @@ export default function GlobalNotFound() {
         style={{ fontFamily: "system-ui, sans-serif" }}
       >
         <span className="text-xl font-extrabold tracking-tight">
-          Buy<span className="text-primary">UP</span>
+          <span className="text-primary">WA</span>losses
         </span>
         <h1 className="mt-6 text-2xl font-bold">Page not found</h1>
         <p className="mt-2 text-text-muted">The page you&apos;re looking for doesn&apos;t exist.</p>

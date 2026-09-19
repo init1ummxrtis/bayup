@@ -7,11 +7,11 @@ export default async function TermsPage() {
       <h1 className="mb-6 text-3xl font-extrabold tracking-tight text-text">{t("terms")}</h1>
       <div className="flex flex-col gap-6 text-sm leading-relaxed text-text-muted">
         <section>
-          <h2 className="mb-2 font-semibold text-text">1. About BuyUP</h2>
+          <h2 className="mb-2 font-semibold text-text">1. About WAlosses</h2>
           <p>
-            BuyUP is an online marketplace for digital gaming services, such as rank boosting, account
-            leveling, and related in-game progression services. BuyUP connects customers with independent
-            sellers who deliver these services — BuyUP itself does not perform the services listed on the
+            WAlosses is an online marketplace for digital gaming services, such as rank boosting, account
+            leveling, and related in-game progression services. WAlosses connects customers with independent
+            sellers who deliver these services — WAlosses itself does not perform the services listed on the
             platform.
           </p>
         </section>
@@ -37,7 +37,7 @@ export default async function TermsPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">4. Payment</h2>
           <p>
-            Orders are paid for using the payment method available on the platform at checkout. BuyUP does not
+            Orders are paid for using the payment method available on the platform at checkout. WAlosses does not
             store your full payment card details on its own servers.
           </p>
         </section>
@@ -45,7 +45,7 @@ export default async function TermsPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">5. Digital Service Delivery</h2>
           <p>
-            Services purchased on BuyUP are digital and are delivered by the seller according to the delivery
+            Services purchased on WAlosses are digital and are delivered by the seller according to the delivery
             time shown on the product. No physical goods are shipped.
           </p>
         </section>
@@ -55,7 +55,7 @@ export default async function TermsPage() {
           <p>
             An order moves through several statuses as it is processed, such as awaiting payment, paid, in
             progress, and completed. If a payment attempt is unsuccessful, the order is cancelled and you may
-            attempt to pay again. BuyUP does not currently offer a general right to cancel an order, or a refund
+            attempt to pay again. WAlosses does not currently offer a general right to cancel an order, or a refund
             policy, once payment has succeeded and the seller has begun delivering the service.
           </p>
         </section>
@@ -71,7 +71,7 @@ export default async function TermsPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">8. Acceptable Use</h2>
           <p>
-            You agree not to use BuyUP for any unlawful purpose, not to attempt to circumvent the platform&apos;s
+            You agree not to use WAlosses for any unlawful purpose, not to attempt to circumvent the platform&apos;s
             security or payment systems, and not to misrepresent your identity when placing an order.
           </p>
         </section>
@@ -79,15 +79,15 @@ export default async function TermsPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">9. Disclaimer</h2>
           <p>
-            BuyUP is provided on an &quot;as is&quot; basis. While we work with sellers to ensure services are
-            delivered as described, BuyUP does not guarantee any particular outcome from a purchased service.
+            WAlosses is provided on an &quot;as is&quot; basis. While we work with sellers to ensure services are
+            delivered as described, WAlosses does not guarantee any particular outcome from a purchased service.
           </p>
         </section>
 
         <section>
           <h2 className="mb-2 font-semibold text-text">10. Changes to These Terms</h2>
           <p>
-            We may update these Terms from time to time. Continuing to use BuyUP after an update means you
+            We may update these Terms from time to time. Continuing to use WAlosses after an update means you
             accept the revised Terms.
           </p>
         </section>
@@ -95,7 +95,7 @@ export default async function TermsPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">11. Contact</h2>
           <p>
-            BuyUP is operated by [LEGAL ENTITY NAME]. For questions about these Terms, contact{" "}
+            WAlosses is operated by [LEGAL ENTITY NAME]. For questions about these Terms, contact{" "}
             <a href="mailto:support@bayup.dev" className="text-primary hover:underline">
               support@bayup.dev
             </a>

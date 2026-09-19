@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "BuyUP"
+    "name": "WAlosses"
   },
   "nav": {
     "menu": "Menu",
@@ -48,7 +48,7 @@
       "subtitle": "Vyber si hru a najdi tu správnou službu během pár vteřin"
     },
     "howItWorks": {
-      "title": "Jak BuyUP funguje",
+      "title": "Jak WAlosses funguje",
       "step1Title": "Vyber si hru",
       "step1Desc": "Vyber si svou hru a službu.",
       "step2Title": "Zadej objednávku",
@@ -74,7 +74,7 @@
     "privacy": "Soukromí",
     "payment": "Platba",
     "securePayments": "Bezpečné platby",
-    "copyright": "© {year} BuyUP. Všechna práva vyhrazena."
+    "copyright": "© {year} WAlosses. Všechna práva vyhrazena."
   },
   "language": {
     "label": "Jazyk"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Přihlas se do BuyUP",
+      "title": "Přihlas se do WAlosses",
       "subtitle": "Vítej zpět. Zadej své údaje pro pokračování.",
       "email": "E-mail",
       "password": "Heslo",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Vytvoř si účet",
-      "subtitle": "Připoj se k BuyUP a objednávej nebo prodávej boostovací služby.",
+      "subtitle": "Připoj se k WAlosses a objednávej nebo prodávej boostovací služby.",
       "name": "Jméno",
       "email": "E-mail",
       "password": "Heslo",
@@ -170,7 +170,7 @@
     "pay": "Zaplatit {amount}",
     "processing": "Zpracování platby...",
     "mock": {
-      "title": "Platba BuyUP",
+      "title": "Platba WAlosses",
       "subtitle": "Vývojový simulátor plateb — nejsou zapojeny žádné skutečné peníze.",
       "simulateSuccess": "Simulovat úspěšnou platbu",
       "simulateFailure": "Simulovat neúspěšnou platbu"

@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "BuyUP"
+    "name": "WAlosses"
   },
   "nav": {
     "menu": "Menü",
@@ -48,7 +48,7 @@
       "subtitle": "Válaszd ki a játékodat, és találd meg a megfelelő boostot másodpercek alatt"
     },
     "howItWorks": {
-      "title": "Hogyan működik a BuyUP",
+      "title": "Hogyan működik a WAlosses",
       "step1Title": "Válassz egy játékot",
       "step1Desc": "Válaszd ki a játékodat és a szolgáltatást.",
       "step2Title": "Adj le egy rendelést",
@@ -74,7 +74,7 @@
     "privacy": "Adatvédelem",
     "payment": "Fizetés",
     "securePayments": "Biztonságos fizetés",
-    "copyright": "© {year} BuyUP. Minden jog fenntartva."
+    "copyright": "© {year} WAlosses. Minden jog fenntartva."
   },
   "language": {
     "label": "Nyelv"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Jelentkezz be a BuyUPba",
+      "title": "Jelentkezz be a WAlossesba",
       "subtitle": "Üdvözlünk újra! Add meg az adataidat a folytatáshoz.",
       "email": "E-mail",
       "password": "Jelszó",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Hozd létre a fiókodat",
-      "subtitle": "Csatlakozz a BuyUPhoz, hogy rendelhess és eladhass boosting szolgáltatásokat.",
+      "subtitle": "Csatlakozz a WAlosseshoz, hogy rendelhess és eladhass boosting szolgáltatásokat.",
       "name": "Név",
       "email": "E-mail",
       "password": "Jelszó",
@@ -170,7 +170,7 @@
     "pay": "Fizetés – {amount}",
     "processing": "Fizetés feldolgozása...",
     "mock": {
-      "title": "BuyUP fizetés",
+      "title": "WAlosses fizetés",
       "subtitle": "Fejlesztői fizetési szimulátor — nincs valódi pénzmozgás.",
       "simulateSuccess": "Sikeres fizetés szimulálása",
       "simulateFailure": "Sikertelen fizetés szimulálása"

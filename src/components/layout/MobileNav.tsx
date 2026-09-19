@@ -34,7 +34,7 @@ export function MobileNav({ user }: MobileNavProps) {
       {open && createPortal(
         <div className="fixed inset-0 z-[100] bg-bg">
           <div className="flex h-16 items-center justify-between border-b border-border px-4">
-            <span className="text-lg font-bold tracking-tight text-text">BuyUP</span>
+            <span className="text-lg font-bold tracking-tight text-text">WAlosses</span>
             <button
               aria-label={tCommon("close")}
               onClick={() => setOpen(false)}

@@ -9,8 +9,8 @@ export default async function PrivacyPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">1. Overview</h2>
           <p>
-            This Privacy Policy explains what information BuyUP collects, how it is used, and how it is
-            protected when you use the BuyUP marketplace.
+            This Privacy Policy explains what information WAlosses collects, how it is used, and how it is
+            protected when you use the WAlosses marketplace.
           </p>
         </section>
 
@@ -24,7 +24,7 @@ export default async function PrivacyPage() {
             </li>
             <li>
               Payment-related information: the amount, currency and status of a payment, and a reference
-              identifier from the payment service provider. BuyUP does not store your full card number on its
+              identifier from the payment service provider. WAlosses does not store your full card number on its
               own servers.
             </li>
             <li>
@@ -37,7 +37,7 @@ export default async function PrivacyPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">3. Cookies</h2>
           <p>
-            BuyUP uses a small number of strictly necessary cookies: one to keep you signed in and one to
+            WAlosses uses a small number of strictly necessary cookies: one to keep you signed in and one to
             remember your preferred language. These cookies are required for the platform to function and are
             not used for advertising or for tracking you across other websites.
           </p>
@@ -85,7 +85,7 @@ export default async function PrivacyPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">9. Changes to This Policy</h2>
           <p>
-            We may update this Privacy Policy from time to time. Continuing to use BuyUP after an update means
+            We may update this Privacy Policy from time to time. Continuing to use WAlosses after an update means
             you accept the revised policy.
           </p>
         </section>
@@ -93,7 +93,7 @@ export default async function PrivacyPage() {
         <section>
           <h2 className="mb-2 font-semibold text-text">10. Contact</h2>
           <p>
-            BuyUP is operated by [LEGAL ENTITY NAME], [CONTACT ADDRESS]. For privacy questions, contact{" "}
+            WAlosses is operated by [LEGAL ENTITY NAME], [CONTACT ADDRESS]. For privacy questions, contact{" "}
             <a href="mailto:support@bayup.dev" className="text-primary hover:underline">
               support@bayup.dev
             </a>

@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "BuyUP"
+    "name": "WAlosses"
   },
   "nav": {
     "menu": "Menú",
@@ -48,7 +48,7 @@
       "subtitle": "Elige tu juego y encuentra el boost perfecto en segundos"
     },
     "howItWorks": {
-      "title": "Cómo funciona BuyUP",
+      "title": "Cómo funciona WAlosses",
       "step1Title": "Elige un juego",
       "step1Desc": "Selecciona tu juego y el servicio.",
       "step2Title": "Haz un pedido",
@@ -74,7 +74,7 @@
     "privacy": "Privacidad",
     "payment": "Pago",
     "securePayments": "Pagos seguros",
-    "copyright": "© {year} BuyUP. Todos los derechos reservados."
+    "copyright": "© {year} WAlosses. Todos los derechos reservados."
   },
   "language": {
     "label": "Idioma"
@@ -85,7 +85,7 @@
   },
   "auth": {
     "login": {
-      "title": "Inicia sesión en BuyUP",
+      "title": "Inicia sesión en WAlosses",
       "subtitle": "Bienvenido de nuevo. Ingresa tus datos para continuar.",
       "email": "Correo electrónico",
       "password": "Contraseña",
@@ -96,7 +96,7 @@
     },
     "register": {
       "title": "Crea tu cuenta",
-      "subtitle": "Únete a BuyUP para pedir y vender servicios de boosting.",
+      "subtitle": "Únete a WAlosses para pedir y vender servicios de boosting.",
       "name": "Nombre",
       "email": "Correo electrónico",
       "password": "Contraseña",
@@ -170,7 +170,7 @@
     "pay": "Pagar {amount}",
     "processing": "Procesando el pago...",
     "mock": {
-      "title": "Pago BuyUP",
+      "title": "Pago WAlosses",
       "subtitle": "Simulador de pago de desarrollo — no interviene dinero real.",
       "simulateSuccess": "Simular pago exitoso",
       "simulateFailure": "Simular pago fallido"
